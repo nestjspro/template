@@ -6,7 +6,6 @@ import { RBAC_DEFAULT_ROLES } from './_lib/RBAC';
 
     imports: [
 
-
         RBACModule.forRoot({
 
             initializeModuleDefaults: false,
