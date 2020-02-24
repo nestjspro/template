@@ -2,35 +2,35 @@ import { PermissionCreate } from '@nestjs.pro/rbac/dist/Permissions/PermissionCr
 import { RoleCreate }       from '@nestjs.pro/rbac/dist/Roles/RoleCreate';
 import { RBAC_TYPE }        from '@nestjs.pro/rbac/dist/types/RBACTypes';
 
-export const RBAC_PERMISSIONS_PAGES: Array<PermissionCreate> = [
+export const RBAC_PERMISSIONS_APP: Array<PermissionCreate> = [
 
     {
 
-        name: 'pages.search',
+        name: 'app.search',
         description: '',
         type: RBAC_TYPE.SYSTEM
 
     }, {
 
-        name: 'pages.get',
+        name: 'app.get',
         description: '',
         type: RBAC_TYPE.SYSTEM
 
     }, {
 
-        name: 'pages.create',
+        name: 'app.create',
         description: '',
         type: RBAC_TYPE.SYSTEM
 
     }, {
 
-        name: 'pages.update',
+        name: 'app.update',
         description: '',
         type: RBAC_TYPE.SYSTEM
 
     }, {
 
-        name: 'pages.delete',
+        name: 'app.delete',
         description: '',
         type: RBAC_TYPE.SYSTEM
 
@@ -42,9 +42,9 @@ export const RBAC_DEFAULT_ROLES: Array<RoleCreate> = [
 
     {
 
-        name: 'pages.admin',
-        description: 'Complete control over pages & their settings.',
-        permissions: RBAC_PERMISSIONS_PAGES,
+        name: 'app.admin',
+        description: 'Complete control over the application & settings.',
+        permissions: RBAC_PERMISSIONS_APP,
         type: RBAC_TYPE.SYSTEM
 
     }
