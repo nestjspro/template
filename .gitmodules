@@ -1,9 +1,0 @@
-[submodule "modules/rbac"]
-	path = modules/rbac
-	url = git@github.com:mateothegreat/template-rbac.git
-[submodule ".make"]
-	path = .make
-	url = https://github.com/mateothegreat/.make
-[submodule "modules/app/.make"]
-	path = modules/app/.make
-	url = https://github.com/mateothegreat/.make
