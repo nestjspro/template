@@ -1,12 +1,17 @@
 import { Server } from '@nestjs.pro/common/dist/server/Server';
-import { AppModule } from './AppModule';
-import { ServerConfig } from '../../modules/common/dist/server/ServerConfig';
+import { ApplicationModule } from './ApplicationModule';
+import { ServerConfig } from '@nestjs.pro/common/dist/server/ServerConfig';
 
 Server.bootstrap(new ServerConfig({
 
     name: 'Test App',
     port: 8080,
-    module: AppModule,
+    module: ApplicationModule,
+    cors: {
+
+        origins: [ 'http://localhost:4200' ]
+
+    },
     swagger: {
 
         path: 'swagger',
