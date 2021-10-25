@@ -8,6 +8,7 @@
         "release": "rm -rf dist && tsc && npm version patch && npm publish --access=private"
     },
     "dependencies": {
+        "@nestjs-plus/rabbitmq": "^1.4.4",
         "@nestjs.pro/common": "^1.0.131",
         "@nestjs/common": "^8.1.1",
         "@nestjs/core": "^8.1.1",
