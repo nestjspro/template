@@ -1,10 +1,16 @@
-import { Controller } from '@nestjs/common';
 import { ApplicationService } from './ApplicationService';
+import { Controller } from '@nestjs/common';
 
 @Controller('/')
 export class ApplicationController {
 
-    public constructor(private readonly appService: ApplicationService) {
+    /**
+     * asdf
+     *
+     * @param {ApplicationService} appService asdf
+     * @param a
+     */
+    public constructor(private readonly appService: ApplicationService, public a: number) {
 
     }
 

@@ -1,5 +1,5 @@
-import { Server } from '@nestjs.pro/common/dist/server/Server';
 import { ApplicationModule } from './ApplicationModule';
+import { Server } from '@nestjs.pro/common/dist/server/Server';
 import { ServerConfig } from '@nestjs.pro/common/dist/server/ServerConfig';
 
 Server.bootstrap(new ServerConfig({
