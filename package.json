@@ -9,31 +9,31 @@
     },
     "dependencies": {
         "@nestjs-plus/rabbitmq": "^1.4.4",
-        "@nestjs.pro/common": "^1.0.131",
-        "@nestjs/common": "^8.1.1",
-        "@nestjs/core": "^8.1.1",
-        "@nestjs/swagger": "^5.1.4",
+        "@nestjs.pro/common": "^1.0.142",
+        "@nestjs/common": "^8.2.2",
+        "@nestjs/core": "^8.2.2",
+        "@nestjs/swagger": "^5.1.5",
         "@nestjs/typeorm": "^8.0.2",
         "class-transformer": "^0.4.0",
         "class-validator": "^0.13.1",
         "dotenv": "^10.0.0",
         "mysql": "^2.18.1",
         "rxjs": "^7.4.0",
-        "typeorm": "^0.2.38"
+        "typeorm": "^0.2.41"
     },
     "devDependencies": {
-        "@types/jest": "^27.0.2",
-        "@types/node": "^16.11.4",
+        "@types/jest": "^27.0.3",
+        "@types/node": "^16.11.9",
         "@typescript-eslint/eslint-plugin": "^5.4.0",
         "@typescript-eslint/parser": "^5.4.0",
-        "concurrently": "^6.3.0",
+        "concurrently": "^6.4.0",
         "eslint": "^8.2.0",
         "eslint-plugin-jsdoc": "^37.0.3",
         "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
         "jest": "^27.3.1",
-        "nodemon": "^2.0.14",
+        "nodemon": "^2.0.15",
         "ts-jest": "^27.0.7",
-        "typescript": "^4.4.4",
+        "typescript": "^4.5.2",
         "wait-on": "^6.0.0"
     }
 }
