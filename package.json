@@ -11,7 +11,7 @@
         "@nestjs-plus/rabbitmq": "^1.4.4",
         "@nestjs.pro/common": "^1.0.142",
         "@nestjs/common": "^8.2.2",
-        "@nestjs/core": "^8.2.2",
+        "@nestjs/core": "^9.0.5",
         "@nestjs/swagger": "^5.1.5",
         "@nestjs/typeorm": "^8.0.2",
         "class-transformer": "^0.4.0",
